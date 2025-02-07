@@ -89,8 +89,5 @@ This extended framework should serve as a robust foundation for showcasing your 
 Happy testing!
 ```
 
----
-
 This complete extended codebase incorporates advanced features and demonstrates best practices in test automation. You can further modify and expand it to showcase additional skills and integrate with your development workflow.
 
----
