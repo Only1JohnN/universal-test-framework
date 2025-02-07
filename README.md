@@ -32,6 +32,7 @@ This repository contains an **advanced** test automation framework for web, mobi
 ├── .github
 │   └── workflows
 │       └── ci.yml
+├── pytest.ini
 ├── requirements.txt
 └── README.md
 ```
