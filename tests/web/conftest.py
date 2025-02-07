@@ -1,6 +1,12 @@
 import pytest
 import os
+import sys
+from pathlib import Path
 import allure
+
+# Add the root directory to sys.path
+sys.path.append(str(Path(__file__).resolve().parents[2]))
+
 from utils.screenshot import take_screenshot
 
 @pytest.hookimpl(hookwrapper=True)
