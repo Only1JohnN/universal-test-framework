@@ -1,0 +1,27 @@
+{
+    "web": {
+      "__comment": "Replace with your web app URL and update the driver path if necessary",
+      "base_url": "https://example.com",
+      "browser": "chrome",
+      "driver_path": "./drivers/chromedriver"
+    },
+    "mobile": {
+      "__comment": "Replace with your device name or emulator ID and the correct app file path",
+      "platformName": "Android",
+      "deviceName": "emulator-5554",
+      "app": "./apps/app.apk",
+      "automationName": "UiAutomator2"
+    },
+    "api": {
+      "__comment": "Replace with your API base URL",
+      "base_url": "https://api.example.com"
+    },
+    "db": {
+      "__comment": "Replace with your DB user, DB password, and DB name",
+      "host": "localhost",
+      "user": "root",
+      "password": "password",
+      "database": "test_db"
+    }
+  }
+  
